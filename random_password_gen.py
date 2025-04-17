@@ -56,7 +56,7 @@ cred = credentials.Certificate("D:/key/serviceAccountKey.json")
 
 # Initialize the Firebase Admin SDK
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://password-2e336-default-rtdb.asia-southeast1.firebasedatabase.app/'
+    'databaseURL': '#'
 })
 
 ref = db.reference('password')
